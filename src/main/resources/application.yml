@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  topic:
+    foo: foo-topic
+    bar: bar-topic
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    com.memorynotfound: DEBUG
